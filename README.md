@@ -6,6 +6,14 @@ An AI-powered web application that analyzes your resume against a job descriptio
 
 ---
 
+## 🌐 Live Demo
+
+🔗 Frontend: https://resumeiq-ai-red.vercel.app/
+
+🔗 Backend API: https://resumeiq-ai-vcee.onrender.com
+
+🔗 Health Check: https://resumeiq-ai-vcee.onrender.com/api/health
+
 ## ✨ Features
 
 | Feature | Description |
