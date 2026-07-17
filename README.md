@@ -1,18 +1,16 @@
-# 🎯 AI Interview Prep Assistant
+# 🚀 ResumeIQ AI
 
-An AI-powered web application that analyzes your resume against a job description. The backend extracts text from the PDF using `pdf-parse`, constructs a detailed system prompt, and sends it to the **Google Gemini 3.5 Flash** model via the `@google/genai` SDK. The model returns a structured JSON payload which is validated and passed back to the frontend.
+AI-powered Resume Analyzer & Interview Preparation Platform
 
-![Tech Stack](https://img.shields.io/badge/React-18-blue?logo=react) ![Node.js](https://img.shields.io/badge/Node.js-20+-green?logo=node.js) ![Gemini](https://img.shields.io/badge/Gemini_3.5_Flash-AI-purple?logo=google) ![License](https://img.shields.io/badge/License-MIT-yellow)
+ResumeIQ AI is a full-stack web application that analyzes a resume against a job description using Google Gemini AI. It extracts text from uploaded PDF resumes and generates resume scores, strengths, missing skills, resume improvement suggestions, interview questions, personalized self-introductions, and learning recommendations.
+
+![Tech Stack](https://img.shields.io/badge/React-18-blue?logo=react) ![Node.js](https://img.shields.io/badge/Node.js-20+-green?logo=node.js) ![Google Gemini](https://img.shields.io/badge/Google-Gemini-blue?logo=google) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
-## 🌐 Live Demo
-
-🔗 Frontend: https://resumeiq-ai-red.vercel.app/
-
-🔗 Backend API: https://resumeiq-ai-vcee.onrender.com
-
-🔗 Health Check: https://resumeiq-ai-vcee.onrender.com/api/health
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://resumeiq-ai-red.vercel.app/)
+[![Backend API](https://img.shields.io/badge/Backend-Render-blue?style=for-the-badge)](https://resumeiq-ai-vcee.onrender.com/api/health)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/sneha-gupta-23/resumeiq-ai)
 
 ## ✨ Features
 
@@ -55,7 +53,7 @@ An AI-powered web application that analyzes your resume against a job descriptio
 ## 📁 Project Structure
 
 ```
-ai-interview-prep-assistant/
+resumeiq-ai/
 ├── client/                       # React frontend (Vite)
 │   ├── public/                   # Static assets
 │   ├── src/
@@ -114,8 +112,9 @@ ai-interview-prep-assistant/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ai-interview-prep-assistant.git
-cd ai-interview-prep-assistant
+git clone https://github.com/sneha-gupta-23/resumeiq-ai.git
+
+cd resumeiq-ai
 ```
 
 ### 2. Set Up the Backend
@@ -238,3 +237,10 @@ This project is licensed under the MIT License.
 <p align="center">
   Built with ❤️ using React, Node.js, and Google Gemini AI
 </p>
+
+## 👩‍💻 Author
+
+**Sneha Gupta**
+
+- GitHub: https://github.com/sneha-gupta-23
+- Live Demo: https://resumeiq-ai-red.vercel.app/
